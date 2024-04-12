@@ -1381,6 +1381,7 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
   - BFFs
   - Black Valley Girls
   - BraceFaced
+  - Brat Tamer
   - Breeding Material
   - CFNM Teens
   - DadCrush
