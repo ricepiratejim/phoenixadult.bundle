@@ -1439,6 +1439,7 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
   - TeamSkeet X Erotique TV Live
   - TeamSkeet X Eva Elfie
   - TeamSkeet X EvilAngel
+  - TeamSkeet X Fit18
   - TeamSkeet X Flora Rodgers
   - TeamSkeet X Fucking Awesome
   - TeamSkeet X GrandDadz
