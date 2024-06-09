@@ -145,6 +145,7 @@ ActorsReplace = {
     'Jewel De\'Nyle': ['Jewel De Nyle', 'Jewel DeNyle', 'Jewel Denyle'],
     'Jmac': ['J Mac', 'JMac'],
     'Johnny Bravo': ['Jhonny Bravo'],
+    'Johnny Love': ['Johnny The Kid', 'Myles Long'],
     'Jojo Kiss': ['Jo Jo Kiss'],
     'Jordan Ashe': ['Jordan Ash', 'Jordan Ashley', 'Jorden Ashley'],
     'Jordi El Nino Polla': ['Jordi Enp', 'Jordi El Niño Polla'],
@@ -325,6 +326,7 @@ ActorsReplace = {
     'Tami Fabiana': ['July'],
     'Tatiana Flores': ['Yuly'],
     'Tetti Dew Korti': ['Dew Korti', 'Emily Sands', 'Oktavia Milton'],
+    'Thick Ass Daphne': ['Daphne ThickAss'],
     'Timea Bella': ['Lucianna Karel'],
     'Tony T.': ['Tony Tigaro'],
     'Val Steele': ['Valerica Steele', 'Valerie Steele'],
@@ -391,6 +393,7 @@ ActorsReplaceStudios = {
     4: {  # CumLouder
         'Apolonia Lapiedra': ['Apolonia'],
         'Julia De Lucia': ['Julia De LucíA'],
+        'Karyn Bayres': ['Karyn'],
         'Scarlet Domingo': ['Scarlett'],
         'Susana Alcala': ['Susana Alcalá'],
     },
