@@ -789,6 +789,7 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
   - MetArtX
   - Rylsky Art
   - SexArt
+  - Straplezz
   - Stunning18
   - TheLifeErotic
   - Viv Thomas
@@ -1404,7 +1405,6 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
   - Nymphos
   - Swallowed
   - TrueAnal
-+ #### Straplezz | ❌ - **Direct URL**
 + #### StraponCum | ❌ - **Direct URL**
 + #### Strike3 Network | ✅
   - Blacked
