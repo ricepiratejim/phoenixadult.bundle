@@ -76,6 +76,10 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     metadata.tagline = tagline
     metadata.collections.add(tagline)
 
+    dvd = detailsPageElements.xpath('//div[@class="post_item dvd"]/h1')
+    if dvd:
+        metadata.collections.add(PAutils.parseTitle(dvd[0].text_content().lower(), siteNum))
+
     # Release Date
     date = detailsPageElements.xpath('//h3[@class="post_date"]')
     if date:
