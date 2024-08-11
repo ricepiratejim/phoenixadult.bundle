@@ -11,7 +11,7 @@ import time
 import urllib
 import urlparse
 from cStringIO import StringIO
-from datetime import datetime
+from datetime import datetime, timedelta
 from dateutil.parser import parse
 from PIL import Image
 from slugify import slugify

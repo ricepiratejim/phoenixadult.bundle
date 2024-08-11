@@ -428,7 +428,8 @@ def postParseTitle(output):
 def preParseTitle(input):
     exceptions_corrections = {
         (r'(?<!\S)t\sshirt', 'tshirt'), (r'j\smac|jmac', 'jmac'), (r'\bmr(?=\s)', 'mr.'), (r'\bmrs(?=\s)', 'mrs.'),
-        (r'\bms(?=\s)', 'ms.'), (r'\bdr(?=\s)', 'dr.'), (r'\bvs(?=\s)', 'vs.'), (r'\bst(?=\s)', 'st.'), (r'\s\s+', ' ')
+        (r'\bms(?=\s)', 'ms.'), (r'\bdr(?=\s)', 'dr.'), (r'\bvs(?=\s)', 'vs.'), (r'\bst(?=\s)', 'st.'), (r'\s\s+', ' '),
+        (r'\bvol(?=\s)', 'vol.')
     }
 
     output = input.replace('\xc2\xa0', ' ')
@@ -556,3 +557,10 @@ def strip_tags(html):
     s = MLStripper()
     s.feed(html)
     return s.get_data()
+
+
+def functionTimer(fun, msg, *args):
+    start_time = time.time()
+    fun(*args)
+    end_time = time.time()
+    Log('%s: %s' % (msg, str(timedelta(seconds=(end_time - start_time)))))
