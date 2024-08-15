@@ -186,6 +186,7 @@ ActorsReplace = {
     'Lea Lexis': ['Lea Lexus', 'Lea Lush', 'Leah Lush', 'Lee Lexus', 'Lea Lixus'],
     'Leana Lovings': ['Leanna Lovings'],
     'Lexi Anne Garza': ['Lexi Aaane', 'Lexi Anne'],
+    'Leyla Peachbloom': ['Layla Peachbloom', 'Leila Peachbloom', 'Leyla Bloom'],
     'Lia Lor': ['Brady Paige'],
     'Light Fairy': ['Flora Fairy', 'Lightfairy'],
     'Lilly Ford': ['Lilly Lit'],
@@ -6088,6 +6089,22 @@ ActorsReplaceStudios = {
         'Talon': ['Talon Valenti'],
         'Zeus': ['Jesus "Zeus"Munoz'],
     },
+    70: {  # Heavy on Hotties
+        'Alice Wonderbang': ['Sasha'],
+        'Ashley Stillar': ['Nicol'],
+        'Cindy White': ['Cindy'],
+        'Jana Maho': ['Angelia'],
+        'Josephine Jackson': ['Josephine'],
+        'Lilu Moon': ['Lilu4u'],
+        'Leony Dark': ['Leony'],
+        'Maggie Gold': ['Maggies'],
+        'Melissa Mandlikova': ['Pamela'],
+        'Natasha Sweet': ['Nadiya'],
+        'Olga Winter': ['Olga'],
+        'Suzie Sun': ['Suzy'],
+        'Teena Lipoldino': ['Teena'],
+        'Victoria Ferrera': ['Roksolana'],
+    },
 }
 
 ActorsStudioIndexes = {
@@ -6161,6 +6178,7 @@ ActorsStudioIndexes = {
     67: ['Data18'],
     68: ['Mofos'],
     69: ['Adult Empire'],
+    70: ['Heavy on Hotties'],
 }
 
 
