@@ -1979,6 +1979,8 @@ searchSites = {
     1884: ('Vored', 'https://vored.com', '/?s='),
     1885: ('Latina MILF', 'https://letsdoeit.com', 'https://site-api.project1service.com'),
     1886: ('Heavy on Hotties', 'https://www.heavyonhotties.com', '/'),
+    1887: ('Filthy Kings', 'https://www.filthykings.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
+    1888: ('MYLF Seeker', 'https://www.filthykings.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
 }
 
 abbreviations = (
@@ -2806,7 +2808,7 @@ def getProviderFromSiteNum(siteNum):
             provider = networkGammaEntOther
 
         # Filthy Kings sites
-        elif (1257 <= siteNum <= 1262) or (1750 <= siteNum <= 1753):
+        elif (1257 <= siteNum <= 1262) or (1750 <= siteNum <= 1753) or (1887 <= siteNum <= 1888):
             provider = networkGammaEntOther
 
         # PJGirls
