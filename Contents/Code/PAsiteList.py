@@ -60,7 +60,6 @@ import siteUltrafilms
 import siteFuckingAwesome
 import siteToughLoveX
 import siteCumLouder
-import siteZTOD
 import siteClubFilly
 import networkIntersec
 import networkCherryPimps
@@ -962,7 +961,7 @@ searchSites = {
     767: ('AllAnal', 'https://tour.allanal.com', '/_next/data/'),
     768: ('TurningTwistys', 'https://www.twistys.com', 'https://site-api.project1service.com'),
     769: ('GirlCum', 'https://www.girlcum.com', '/video/'),
-    770: ('Zero Tolerance', 'http://www.ztod.com', '/videos?query='),
+    770: ('Zero Tolerance', 'http://www.zerotolerancefilms.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
     771: ('ClubFilly', 'http://www.clubfilly.com', '/scenefocus.php?vnum=V'),
     772: ('Insex', 'https://www.insexondemand.com', '/iod/home.php?s='),
     773: ('Sexuallybroken', 'https://www.insexondemand.com', '/iod/home.php?d=sexuallybroken.com&s='),
@@ -1979,6 +1978,8 @@ searchSites = {
     1884: ('Vored', 'https://vored.com', '/?s='),
     1885: ('Latina MILF', 'https://letsdoeit.com', 'https://site-api.project1service.com'),
     1886: ('Heavy on Hotties', 'https://www.heavyonhotties.com', '/'),
+    1887: ('Filthy Kings', 'https://www.filthykings.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
+    1888: ('MYLF Seeker', 'https://www.filthykings.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
 }
 
 abbreviations = (
@@ -2723,7 +2724,7 @@ def getProviderFromSiteNum(siteNum):
 
         # ZeroTolerance
         elif siteNum == 770:
-            provider = siteZTOD
+            provider = networkGammaEntOther
 
         # ClubFilly
         elif siteNum == 771:
@@ -2806,7 +2807,7 @@ def getProviderFromSiteNum(siteNum):
             provider = networkGammaEntOther
 
         # Filthy Kings sites
-        elif (1257 <= siteNum <= 1262) or (1750 <= siteNum <= 1753):
+        elif (1257 <= siteNum <= 1262) or (1750 <= siteNum <= 1753) or (1887 <= siteNum <= 1888):
             provider = networkGammaEntOther
 
         # PJGirls
