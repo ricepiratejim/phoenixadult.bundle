@@ -82,11 +82,13 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
 
         for actorLink in actors:
             actorName = actorLink.text_content()
+            actorPhotoURL = ''
 
-            actorPageURL = actorLink.get('href')
-            req = PAutils.HTTPRequest(actorPageURL)
-            actorPage = HTML.ElementFromString(req.text)
-            actorPhotoURL = actorPage.xpath('//img[@class="info-img"]/@src')[0]
+            actorPageURL = actorLink.xpath('./@href')[0].replace('http', 'https')
+            req = PAutils.HTTPRequest(actorPageURL, allow_redirects=False)
+            if req.ok:
+                actorPage = HTML.ElementFromString(req.text)
+                actorPhotoURL = actorPage.xpath('//img[@class="info-img"]/@src')[0]
 
             movieActors.addActor(actorName, actorPhotoURL)
 
