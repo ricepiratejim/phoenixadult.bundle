@@ -3,8 +3,13 @@ import PAutils
 
 
 def getToken(url):
+    # XConfessions
     if '//api.' in url:
         url = url.replace('//api.', '//', 1)
+
+    # LustCinema
+    if '//next-prod-api.' in url:
+        url = url.replace('//next-prod-api.', '//', 1)
 
     req = PAutils.HTTPRequest(url)
 
