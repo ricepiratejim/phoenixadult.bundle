@@ -113,7 +113,11 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     movieActors.addDirector(directorName, '')
 
     # Poster
-    art.append(detailsPageElements['poster_picture'].split('?', 1)[0])
+    if detailsPageElements['poster_picture'] is not None:
+        art.append(detailsPageElements['poster_picture'].split('?', 1)[0])
+    # fallback to mobile banner if no poster
+    elif detailsPageElements['banner_image_mobile'] is not None:
+        art.append(detailsPageElements['banner_image_mobile'].split('?', 1)[0])
 
     for photoLink in detailsPageElements['album']:
         img = photoLink['path'].split('?', 1)[0]
