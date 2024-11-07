@@ -83,6 +83,13 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     producerLink = detailsPageElements['producer']
     metadata.studio = '%s %s' % (producerLink['name'], producerLink['last_name'])
 
+    # Producer
+    if producerLink['poster_image'] is not None:
+        producerPhotoURL = producerLink['poster_image'].split('?', 1)[0]
+    else:
+        producerPhotoURL = ''
+    movieActors.addProducer('%s %s' % (producerLink['name'], producerLink['last_name']), producerPhotoURL)
+
     # Tagline and Collection(s)
     tagline = PAsearchSites.getSearchSiteName(siteNum)
     metadata.tagline = tagline
