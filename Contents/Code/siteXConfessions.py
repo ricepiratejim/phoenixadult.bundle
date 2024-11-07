@@ -109,6 +109,10 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     if detailsPageElements['is_compilation'] or "compilation" in metadata.title.lower() or "compilation" in metadata.summary.lower():
         movieGenres.addGenre('Compilation')
 
+    # Rating
+    if (isinstance(detailsPageElements['rating'], float)):
+        metadata.rating = detailsPageElements['rating'] * 2
+
     # Actor(s)
     for actorLink in detailsPageElements['performers']:
         actorName = '%s %s' % (actorLink['name'], actorLink['last_name'])
