@@ -105,6 +105,10 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
         genreName = genreLink['title']
         movieGenres.addGenre(genreName)
 
+    # Compilation genre
+    if detailsPageElements['is_compilation'] or "compilation" in metadata.title.lower() or "compilation" in metadata.summary.lower():
+        movieGenres.addGenre('Compilation')
+
     # Actor(s)
     for actorLink in detailsPageElements['performers']:
         actorName = '%s %s' % (actorLink['name'], actorLink['last_name'])
