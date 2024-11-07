@@ -83,6 +83,13 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     producerLink = detailsPageElements['producer']
     metadata.studio = '%s %s' % (producerLink['name'], producerLink['last_name'])
 
+    # Producer
+    if producerLink['poster_image'] is not None:
+        producerPhotoURL = producerLink['poster_image'].split('?', 1)[0]
+    else:
+        producerPhotoURL = ''
+    movieActors.addProducer('%s %s' % (producerLink['name'], producerLink['last_name']), producerPhotoURL)
+
     # Tagline and Collection(s)
     tagline = PAsearchSites.getSearchSiteName(siteNum)
     metadata.tagline = tagline
@@ -97,6 +104,14 @@ def update(metadata, lang, siteNum, movieGenres, movieActors, art):
     for genreLink in detailsPageElements['tags']:
         genreName = genreLink['title']
         movieGenres.addGenre(genreName)
+
+    # Compilation genre
+    if detailsPageElements['is_compilation'] or "compilation" in metadata.title.lower() or "compilation" in metadata.summary.lower():
+        movieGenres.addGenre('Compilation')
+
+    # Rating
+    if (isinstance(detailsPageElements['rating'], float)):
+        metadata.rating = detailsPageElements['rating'] * 2
 
     # Actor(s)
     for actorLink in detailsPageElements['performers']:
