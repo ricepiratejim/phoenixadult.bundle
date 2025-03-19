@@ -12,7 +12,7 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
 + #### 18 Network | ✓ - **Title or Actor Name**
   - Fit18
   - Thicc18
-+ #### 21Naturals | ✅
++ #### 21Naturals | ✅ 
   - 21EroticAnal
   - 21FootArt
   - 21Naturals
@@ -1393,10 +1393,6 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
   - Plants vs Cunts
   - Voodooed
   - Vored
-+ #### SapphiX Network | Matching type: ✅
-  - Fist Flush
-  - Give Me Pink
-  - Sapphic Erotica
 + #### Screwbox | ✓
 + #### ScrewMeToo | ✅
 + #### SexLikeReal | ✅
@@ -1411,11 +1407,7 @@ If you're having difficulty finding the SceneID, double-check [PAsiteList.py](..
 + #### She Will Cheat | ✓
 + #### Sicflics | ✅
 + #### SinsLife | ✓
-+ #### SinX | ✓
-  - Fully Clothed Pissing
-  - Golden Shower Power
-  - Pissing in Action
-  - Slime Wave
+
 + #### Spizoo | ✓
   - Cream Her
   - DrDaddyPOV
